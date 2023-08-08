@@ -1,0 +1,40 @@
+#morale{
+    float: right;
+}
+.sleo{
+    background-color: red;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+}
+body{
+    background-color: orange;
+}
+canvas{
+    color:aliceblue;
+    border-color: black;
+    border-radius: 25px;
+    animation-name: canvas_shadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top:100px ;
+}
+
+@keyframes canvas_shadow {
+    0%{
+        box-shadow: 1px 2px 50px green;
+    }
+    25%{
+        box-shadow:1px 2px 50px  lime;
+    }
+    50%{
+        box-shadow:1px 2px 50px yellow;
+    }
+    75%{
+        box-shadow:1px 2px 50px orange;
+    }
+    100%{
+        box-shadow:1px 2px 50px orangered;
+    }
+
+}
